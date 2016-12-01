@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"E:\\Xiaolong\\ADT\\android_sdk\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Xiaolong\\demo\\gitrepo\\GroovyAndroidDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "E:\\Xiaolong\\ADT\\android_sdk\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Xiaolong\\demo\\gitrepo\\GroovyAndroidDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dnative_lib_EXPORTS -isystem E:\\Xiaolong\\ADT\\android_sdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Xiaolong\\ADT\\android_sdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem E:\\Xiaolong\\ADT\\android_sdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/build/intermediates/cmake/debug/obj/armeabi/libnative-lib.so",
+			"toolchain" : "596178275"
+		}
+	},
+	"toolchains" : 
+	{
+		"596178275" : 
+		{
+			"cCompilerExecutable" : "E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
