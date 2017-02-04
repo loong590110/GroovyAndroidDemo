@@ -49,20 +49,13 @@
             android:layout_height="0.5dp"
             android:paddingLeft="15dp"
             android:background="@color/white"
-            android:src="@color/grey"/>
+            android:src="@color/grey"
+            android:visibility="gone"/>
 
-        <com.android.groovydemo1.widgets.TouchItem
-            android:id="@+id/btn_update"
-            style="@style/touch_item"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:key="版本更新"
-            app:value="1.0.0"/>
     </LinearLayout>
 
     <Button
         android:id="@+id/btn_logout"
-        style="@style/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"

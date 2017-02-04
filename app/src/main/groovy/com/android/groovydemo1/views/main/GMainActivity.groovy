@@ -1,14 +1,11 @@
 package com.android.groovydemo1.views.main
 
+import android.content.Context;
 import android.content.Intent
-import android.graphics.Color
 import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentPagerAdapter
 import android.support.v4.view.ViewPager
-import android.view.View
-import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import com.android.groovydemo1.KeysBean
 import com.android.groovydemo1.MainActivity
@@ -22,7 +19,7 @@ public class GMainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        if (!getSharedPreferences(KeysBean.SHARED_NAME, MODE_PRIVATE).getBoolean(KeysBean.LOGIN, false)) {
+        if (!getSharedPreferences(KeysBean.SHARED_NAME, Context.MODE_PRIVATE).getBoolean(KeysBean.LOGIN, false)) {
             startActivity(new Intent(this, LoginActivity.class))
         }
         TextView tv = (TextView) findViewById(R.id.sample_text);

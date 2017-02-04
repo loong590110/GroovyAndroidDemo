@@ -1,9 +1,12 @@
 
 {
-	"buildFiles" : [ "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/CMakeLists.txt" ],
+	"buildFiles" : 
+	[
+		"E:/Documents/AndroidStudioProjects/GroovyAndroidDemo/app/CMakeLists.txt"
+	],
 	"cleanCommands" : 
 	[
-		"E:\\Xiaolong\\ADT\\android_sdk\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Xiaolong\\demo\\gitrepo\\GroovyAndroidDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
+		"D:\\MySoftwares\\AndroidSDK\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Documents\\AndroidStudioProjects\\GroovyAndroidDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target clean"
 	],
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
@@ -12,27 +15,27 @@
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "native-lib",
-			"buildCommand" : "E:\\Xiaolong\\ADT\\android_sdk\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Xiaolong\\demo\\gitrepo\\GroovyAndroidDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target native-lib",
+			"buildCommand" : "D:\\MySoftwares\\AndroidSDK\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build E:\\Documents\\AndroidStudioProjects\\GroovyAndroidDemo\\app\\.externalNativeBuild\\cmake\\debug\\armeabi-v7a --target native-lib",
 			"buildType" : "debug",
 			"files" : 
 			[
 				
 				{
-					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dnative_lib_EXPORTS -isystem E:\\Xiaolong\\ADT\\android_sdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem E:\\Xiaolong\\ADT\\android_sdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem E:\\Xiaolong\\ADT\\android_sdk\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
-					"src" : "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain D:/MySoftwares/AndroidSDK/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/MySoftwares/AndroidSDK/sdk/ndk-bundle/platforms/android-15/arch-arm  -Dnative_lib_EXPORTS -isystem D:\\MySoftwares\\AndroidSDK\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem D:\\MySoftwares\\AndroidSDK\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\include -isystem D:\\MySoftwares\\AndroidSDK\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "E:/Documents/AndroidStudioProjects/GroovyAndroidDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "E:/Documents/AndroidStudioProjects/GroovyAndroidDemo/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
 				}
 			],
-			"output" : "E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
-			"toolchain" : "596178275"
+			"output" : "E:/Documents/AndroidStudioProjects/GroovyAndroidDemo/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "1476625601"
 		}
 	},
 	"toolchains" : 
 	{
-		"596178275" : 
+		"1476625601" : 
 		{
-			"cCompilerExecutable" : "E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
-			"cppCompilerExecutable" : "E:/Xiaolong/ADT/android_sdk/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+			"cCompilerExecutable" : "D:/MySoftwares/AndroidSDK/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/MySoftwares/AndroidSDK/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
 		}
 	}
 }

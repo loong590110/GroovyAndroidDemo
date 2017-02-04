@@ -18,7 +18,7 @@ public class LoginActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView R.layout.activity_login
         findViewById(R.id.btn_login).onClickListener = { getLoginPresenter()?.login() }
 
         loginPresenter = new LoginPresenter(loginView: [

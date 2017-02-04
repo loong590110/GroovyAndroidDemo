@@ -20,7 +20,7 @@ public class MineFragment extends BaseFragment {
         def v = inflater.inflate(R.layout.fragment_mine, null);
         def txtContent = (TextView) v.findViewById(R.id.txt_content)
         txtContent.setText("Hello, mine fragment.");
-        v.findViewById(R.id.btn_update).onClickListener = {}
+        //v.findViewById(R.id.btn_update).onClickListener = {}
         v.findViewById(R.id.btn_logout).onClickListener = {
             SharedPreferencesUtil.getInstance(getContext()).edit().putBoolean(KeysBean.LOGIN, false).commit()
             startActivity(new Intent(getContext(), LoginActivity.class))

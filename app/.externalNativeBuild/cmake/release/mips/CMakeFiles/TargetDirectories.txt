@@ -1,3 +1,3 @@
-E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/native-lib.dir
-E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
-E:/Xiaolong/demo/gitrepo/GroovyAndroidDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+E:/Documents/AndroidStudioProjects/GroovyAndroidDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/native-lib.dir
+E:/Documents/AndroidStudioProjects/GroovyAndroidDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+E:/Documents/AndroidStudioProjects/GroovyAndroidDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir

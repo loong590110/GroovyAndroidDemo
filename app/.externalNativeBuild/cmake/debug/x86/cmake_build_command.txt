@@ -1,14 +1,14 @@
-Executable : E:\Xiaolong\ADT\android_sdk\sdk\cmake\3.6.3155560\bin\cmake.exe
+Executable : D:\MySoftwares\AndroidSDK\sdk\cmake\3.6.3155560\bin\cmake.exe
 arguments : 
--HE:\Xiaolong\demo\gitrepo\GroovyAndroidDemo\app
--BE:\Xiaolong\demo\gitrepo\GroovyAndroidDemo\app\.externalNativeBuild\cmake\debug\x86
+-HE:\Documents\AndroidStudioProjects\GroovyAndroidDemo\app
+-BE:\Documents\AndroidStudioProjects\GroovyAndroidDemo\app\.externalNativeBuild\cmake\debug\x86
 -GAndroid Gradle - Ninja
 -DANDROID_ABI=x86
--DANDROID_NDK=E:\Xiaolong\ADT\android_sdk\sdk\ndk-bundle
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Xiaolong\demo\gitrepo\GroovyAndroidDemo\app\build\intermediates\cmake\debug\obj\x86
+-DANDROID_NDK=D:\MySoftwares\AndroidSDK\sdk\ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Documents\AndroidStudioProjects\GroovyAndroidDemo\app\build\intermediates\cmake\debug\obj\x86
 -DCMAKE_BUILD_TYPE=Debug
--DCMAKE_MAKE_PROGRAM=E:\Xiaolong\ADT\android_sdk\sdk\cmake\3.6.3155560\bin\ninja.exe
--DCMAKE_TOOLCHAIN_FILE=E:\Xiaolong\ADT\android_sdk\sdk\cmake\3.6.3155560\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=D:\MySoftwares\AndroidSDK\sdk\cmake\3.6.3155560\bin\ninja.exe
+-DCMAKE_TOOLCHAIN_FILE=D:\MySoftwares\AndroidSDK\sdk\cmake\3.6.3155560\android.toolchain.cmake
 -DANDROID_NATIVE_API_LEVEL=15
 -DCMAKE_CXX_FLAGS=
 jvmArgs : 
